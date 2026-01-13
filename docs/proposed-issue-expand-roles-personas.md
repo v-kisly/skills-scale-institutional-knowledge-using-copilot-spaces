@@ -115,7 +115,7 @@ To create this issue in GitHub:
 
 Alternatively, if creating via GitHub CLI:
 ```bash
-gh issue create --template add-update-content-to-process-docs.yml \
-  --title "[Process Doc Update]: Expand roles and personas with additional project management roles"
+# Note: GitHub CLI does not support YAML issue templates with form fields.
+# You must create this issue via the web interface using the template:
+# .github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml
 ```
-(Note: You would need to manually fill in the template fields in the web interface)
