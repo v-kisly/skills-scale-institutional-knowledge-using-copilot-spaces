@@ -111,9 +111,8 @@ Every OctoAcme project follows a structured lifecycle to ensure quality and alig
 ## Communication & Collaboration
 
 ### Communication Cadence
-- **Daily standups**: 15-minute team sync on progress, blockers, dependencies
+- **Daily standups**: 15-minute team sync on progress, blockers, dependencies (or twice-weekly as agreed by the team)
 - **Weekly PM + PdM sync**: Align on priorities, risks, and decisions
-- **Twice-weekly delivery team standups**: As agreed by the team
 - **Sprint/milestone demos**: Show progress and gather feedback
 - **Monthly stakeholder updates**: Share progress and key metrics
 - **Ad-hoc escalations**: As needed for urgent issues
@@ -140,7 +139,7 @@ We maintain high quality through multiple layers of validation:
 
 ### Testing Strategy
 - **Unit tests**: For new logic and functions
-- **Integration tests**: Where applicable for component interactions
+- **Integration tests**: For component interactions, API integrations, and cross-service dependencies
 - **End-to-end smoke tests**: For critical user flows before release
 - **Manual QA**: For feature acceptance when needed
 
